@@ -38,33 +38,4 @@ public class UsuarioController {
 
 
 
-    @RequestMapping(value = "usuario1") //nombre de la URL
-    public Usuario editar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Alexandra");
-        usuario.setApellido("Arias");
-        usuario.setEmail("jealexa321@gmail.com");
-        usuario.setTelefono("3232831235");
-        return  usuario;
-    }
-
-    @RequestMapping(value = "usuario2") //nombre de la URL
-    public Usuario eliminar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Alexandra");
-        usuario.setApellido("Arias");
-        usuario.setEmail("jealexa321@gmail.com");
-        usuario.setTelefono("3232831235");
-        return  usuario;
-    }
-
-    @RequestMapping(value = "usuario3") //nombre de la URL
-    public Usuario bucar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Alexandra");
-        usuario.setApellido("Arias");
-        usuario.setEmail("jealexa321@gmail.com");
-        usuario.setTelefono("3232831235");
-        return  usuario;
-    }
 }
